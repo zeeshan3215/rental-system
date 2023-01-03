@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental.pk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav.css">
+    {{!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+<body>
+<nav>
+    <div class="logo"><Span>R</Span>ental.PK</div>
+    <label for="btn" class="icon">
+      <span class="fa fa-bars"></span>
+    </label>
+    <input  type="checkbox"  name="" id="btn" class="show">
+
+    <!-- <div class="openmenu"><i class="fa fa-bars"></i></div> -->
+    <ul class="Main-menu ul">
+        <li class="li"><a href="/">Home</a></li>
+        <!-- 1st Dropdown start -->
+        <li class="li">
+          <label for="btn-1" class="show">Vehicles</label>
+            <a href="#">Vehicles</a>
+            <input type="checkbox" name="" id="btn-1">
+        <ul class="ul">
+            <li class="li"><a href="/getcarpost">Cars</a></li>
+            <li class="li"><a href="/getbus">Bus</a></li>
+
+        </ul>
+        </li>
+          <!-- 1st Dropdown End -->
+
+         <!-- 2nd Dropdown start -->
+         <l class="li">
+          <label for="btn-2" class="show">Property</label>
+            <a href="#">Property</a>
+            <input type="checkbox" name="" id="btn-2">
+
+
+      <ul class="ul">
+          <li class="li"><a href="/gethouse">House</a></li>
+          <li class="li"><a href="/getshop">Shops</a></li>
+          <li class="li"><a href="/getappartment">Appertment</a></li>
+      </ul>
+      </l class="li"i>
+        <!-- 2nd Dropdown End -->
+         <!-- 3rd Dropdown start -->
+         {{!-- <li class="li">
+          <label for="btn-3" class="show">Take Care</label>
+            <a href="#">Take Care</a>
+            <input type="checkbox" name="" id="btn-3">
+
+      <ul class="ul">
+          <li class="li"><a href="/getdriver">Driver</a></li>
+          <li class="li"><a href="#">Made</a></li>
+          <li class="li"><a href="#">Cook</a></li>
+          <li class="li"><a href="#">Security Guard</a></li>
+      </ul>
+      </li> --}}
+        <!-- 3rd Dropdown End -->
+         <!-- 4th Dropdown start -->
+         <li class="li">
+          <label for="btn-4" class="show">Services</label>
+          <a href="#">Services</a>
+          <input type="checkbox" name="" id="btn-4">
+
+
+      <ul class="ul">
+                  <li class="li"><a href="/getdriver">Driver</a></li>
+          <li class="li"><a href="#">Plumber</a></li>
+          <li class="li"><a href="#">Electrician</a></li>
+   
+      </ul>
+      </li>
+        <!-- 4th Dropdown End -->
+
+          <li class="li"><a  href="/login" role="button">Login/Register</a></li>
+
+          <li class="li"><a  href="/category" role="button">Post Your Ad</a></li>
+      <!-- <div class="closemenu"><i class="fa-solid fa-xmark"></i></div> -->
+    </ul>
+</nav>
+
+<!-- Navbar Complete -->
+<!-- Image Div Start -->
+{{!-- <div class="bgimg"></div> --}}
+<!-- Image Div End -->

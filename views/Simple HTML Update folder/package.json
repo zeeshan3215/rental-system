@@ -1,0 +1,17 @@
+{
+  "name": "simple-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "fund": "^1.0.0",
+    "react": "^18.0.0",
+    "tar": "^6.1.11"
+  }
+}
